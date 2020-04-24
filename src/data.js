@@ -1,0 +1,157 @@
+export const storeProducts = [
+    {
+        id: 1,
+        title: "Nike x Air Fear of God 1 - Light Bone",
+        img: 'img/Prod-1.png',
+        price: 2000,
+        company: "Nike x Fear of God",
+        info: "Nike Air Fear of God 'Light Bone' was one of the shoes to come out of the epic collaboration between Fear of God founder Jerry Lorenzo and Nike Sportswear in late 2018. Lorenzo’s Air Fear of God 1 “Light Bone” is constructed with a premium full-grain leather upper in an off-white shade and has a distinctive high-top silhouette.",
+        nickname: "Light Bone",
+        colorway: "Light Bone / Black",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 2,
+        title: "Adidas Neo - Summer Top",
+        img: "img/Prod-2.jpg",
+        price: 200,
+        company: "Adidas AG",
+        info: "Adidas Neo - Breathable Unisex Summer Top. ",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 3,
+        title: "Puma x Atelier New Regime - Basket Boot ANR",
+        img: "img/Prod-3.jpg",
+        price: 2300,
+        company: "PUMA x Atelier New Regime",
+        info: "Built with tonal neonprene upper, a waterproof branded zipper on the forefoot and winterized rugged outsole, it drops in scarlet Ibis and PUMA Black colorways.",
+        nickname: "Basket Boot ANR",
+        colorway: "Tonal neonprene upper, scarlet Ibis and PUMA Black",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 4,
+        title: "Nike Cortez",
+        img: "img/Prod-4.jpg",
+        price: 220,
+        company: "Nike",
+        info: "The Nike Cortez is the first track shoe released by Nike, in 1971, and is therefore thought to be a significant aspect to the success of Nike, Inc. The Nike Cortez was first designed by Nike co-founder Bill Bowerman. ",
+        nickname: "Cortez",
+        colorway: "Gray",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 5,
+        title: "Nike SF Air Force 1 High - Female",
+        img: "img/Prod-5.png",
+        price: 1600,
+        company: "Nike",
+        info: "The Nike Air Force 1 is what every sneaker aspires to be. It has been turning heads since it first released in 1982.",
+        nickname: "Air Force 1",
+        colorway: "OBSIDIAN/WHITE-VARS RED",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 6,
+        title: "Nike SB Dunk x Humidity - Metal brass",
+        img: "img/Prod-6.jpg",
+        price: 1200,
+        company: "Nike",
+        info: "Nike Skateboarding, primarily known as Nike SB, is the Nike brand for its line of shoes, clothing, and equipment for skateboarding.",
+        nickname: "Nike SB x Humidity",
+        colorway: "Metal brass",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 7,
+        title: "CLOT X AIR JORDAN Sky high OG HIGH",
+        img: "img/Prod-7.jpg",
+        price: 1300,
+        company: "Clot x Air Jordan",
+        info: "CLOT is a streetwear label and lifestyle brand founded by Edison Chen and Kevin Poon, aimed the bridge Eastern and Western culture. CLOT is always a heavy hitter when it comes to Nike collaborations. ",
+        nickname: "Clot Sky high OG",
+        colorway: "Red",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 8,
+        title: "Nike Air Huarache Gripp QS",
+        img: "img/Prod-8.jpg",
+        price: 1000,
+        company: "Nike",
+        info: "Designed by Tinker Hatfield and debuted in 1991, the Nike Air Huarache was accompanied by an advertising campaign that asked, “Have you hugged your foot today?",
+        nickname: "Gripp Sneakers",
+        colorway: "Black/Orange",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 9,
+        title: "Vans Vault x John Van Hamersveld - OG Sk8-Hi LX",
+        img: "img/Prod-9.jpg",
+        price: 800,
+        company: "Vans Vault x John Van Hamersveld",
+        info: "Most notably, Vault by Vans and John Van Hamersveld’s creative partnership introduces new spins on the OG Sk8-Hi LX and the OG Classic Slip-On LX — both of which appear to be the range’s standout pieces.",
+        nickname: "Vans JVH OG Sk8-Hi LX",
+        colorway: "Art",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 10,
+        title: "Chanel Letter Graffiti -Walking Shoes",
+        img: "img/Prod-10.jpg",
+        price: 200,
+        company: "Chanel",
+        info: "Chanle Letter Graffiti walking/spring shoes",
+        colorway: "white",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 11,
+        title: "PUMA Breaker Mesh Fight or Flight - High ",
+        img: "img/Prod-11.jpg",
+        price: 1450,
+        company: "PUMA",
+        info: "The PUMA Breaker Mesh Fight or Flight Sneakers are an update to the classic Breaker Sneakers.",
+        nickname: "Puma Breaker Mesh",
+        colorway: "Black/Orange",
+        inCart: false,
+        count: 0,
+        total: 0
+    }
+];
+
+
+export const detailProduct = {
+    id: 1,
+    title: "Nike x Air Fear of God 1 - Light Bone",
+    img: 'img/Prod-1.png',
+    price: 2000,
+    company: "Nike x Fear of God",
+    info: "Nike Air Fear of God 'Light Bone' was one of the shoes to come out of the epic collaboration between Fear of God founder Jerry Lorenzo and Nike Sportswear in late 2018. Lorenzo’s Air Fear of God 1 “Light Bone” is constructed with a premium full-grain leather upper in an off-white shade and has a distinctive high-top silhouette.",
+    nickname: "Light Bone",
+    colorway: "Light Bone / Black",
+    inCart: false,
+    count: 0,
+    total: 0
+};

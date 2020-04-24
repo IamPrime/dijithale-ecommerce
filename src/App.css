@@ -1,0 +1,92 @@
+/**Default Styles*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --main-bg: crimson;
+  --mainbg-color: #bada55;
+  --white: floralwhite;
+  --navbar: aliceblue;
+  --text-color: darkred;
+  --primary-1: darkorange;
+  --primary-2: orangered;
+  --gradient: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+body{
+  font-family: 'Baloo Thambi 2', cursive !important;
+  background: var(--white) !important;
+  color: var(--text-color) !important;
+}
+
+.text-title{
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-main{
+  color: var(--main-bg);
+}
+
+.text-royal{
+  color: var(--primary-1);
+}
+
+.btn-red{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.6rem !important;
+  color: var(--text-color);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--text-color) !important; 
+}
+
+.btn-red:hover{
+  background: var(--main-bg) !important;
+  color: var(--white) !important;
+}
+
+.btn-green{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.6rem !important;
+  color: var(--text-color);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainbg-color) !important; 
+}
+
+.btn-green:hover{
+  background: var(--navbar) !important;
+  color: var(--text-color) !important;
+}
+
+.btn-plus{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.6rem !important;
+  color: var(--text-color);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--primary-1) !important; 
+}
+
+.btn-plus:hover{
+  background: var(--mainbg-color) !important;
+  color: var(--text-color) !important;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--main-bg);
+}
+
+.pgContainer{
+  background: url('./components/img/err404.svg') center no-repeat !important;
+  background-size: contain !important;
+  width: 100%;
+  height: 100vh;
+}
