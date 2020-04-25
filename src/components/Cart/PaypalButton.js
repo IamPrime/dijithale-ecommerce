@@ -32,7 +32,8 @@ export default class Dijithale extends React.Component {
         // Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
  
         const client = {
-            sandbox: process.env.REACT_APP_DIJITHALE,
+            sandbox: "Af-sYpRiWkwY2uYX8qS_KgDE-39GmbUukj3LDkNtPrUjQqoFf5OhtWDnQKhYgqi9xZsN1dggB5T3eKA1",
+            //sandbox: process.env.REACT_APP_DIJITHALE,
         }
         // In order to get production's app-ID, you will have to send your app to Paypal for approval first
         // For sandbox app-ID (after logging into your developer account, please locate the "REST API apps" section, click "Create App"):
